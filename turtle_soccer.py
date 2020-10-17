@@ -179,7 +179,7 @@ while scoreA < maxScore and scoreB < maxScore:
     if 'l' in keyList: B[bi].setx( B[bi].xcor() + turtleSpeed )
 
     # Reset ball to middle and players to original positions (Foos!)
-    if 'g' in keyList:
+    if 'g' in keyList and ball.speed == 0:
         for index in range(3):
             if index == 1:
                 A[index].goto(-X*0.3, 0)
