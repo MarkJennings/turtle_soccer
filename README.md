@@ -5,14 +5,14 @@
 'pip install pynput'
 
 ## Controls
- * Netherlands
+ * Netherlands (orange)
    * **W** - Up
    * **S** - Down
    * **A** - Left
    * **D** - Right
    * **E** - Next player
    * **Q** - Previous player
- * France
+ * France (blue)
    * **I** - Up
    * **K** - Down
    * **J** - Left
@@ -24,3 +24,5 @@
 ## Rules
  * First to 3 wins!
  * Movement in goal box is not allowed
+
+![Expected screen output](https://raw.githubusercontent.com/MarkJennings/turtle_soccer/main/images/turtle-field.png)
